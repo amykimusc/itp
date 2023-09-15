@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@200;300;400&display=swap" rel="stylesheet">
+
+
+<title>Amy Kim | Student Page</title>
+<meta charset="UTF-8">
+<meta name="description" content="Amy Kim's Student Page">
+<meta name="keywords" content="USC, Amy, Homepage, Website, Daeun, Kim, HTML, CSS, ITP104">
+<meta name="author" content="Amy Kim">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+a:link {
+  color: royalblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: navy;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+body {
+	font-family: 'Roboto Flex', sans-serif;
+	background-image: url(artboard2.png);
+	margin:0;
+}
+	strong {color:white;
+		background-color:tan;
+		padding:5px;}
+	img {width:200px;
+		height:auto;}
+#container {
+	width:900px;
+	margin: 0 auto;
+}
+#row1 {/*header*/
+	margin:0 auto;
+	background-color: tan;
+	padding:90px 0px 55px 0px;
+	text-align: center;
+	overflow:hidden; /*this brought background-color back when float disrupted it*/
+}
+#row2 {/*fav color to school schedule*/
+	margin:0px;
+	padding:18px 18px 30px 25px;
+	background-color: #fef4d0;
+	color:navy;
+	overflow:hidden;
+}
+#row3 {
+	margin: 0px;
+	padding:20px 18px 20px 25px;
+	background-color: tan;
+	color:black;
+	overflow:hidden;
+}
+.column1 {
+  align-content: center;
+  width:450px;
+  float:left;
+  overflow:hidden;
+}
+.column2 {
+	align-content: center;
+	width:400px;
+	float:left;
+	overflow:hidden;
+}
+.clearfloat {
+	clear:both;
+}
+@media (max-width:767px) {
+	#container {width:auto;}
+	.column1 {float:none; width:100%;}
+	.column2 {float:none; width:100%}
+	img {width:100%;}
+}
+</style>
+</head>
+<body>
+<div id="container">
+
+<div id="row1">	
+	<h1>Amy Kim</h1>
+<p>
+	<a href="mailto:kimamy@usc.edu">kimamy@usc.edu</a></p>
+</div>
+<div class="clearfloat">
+</div>
+<div id="row2">
+	<div class="column1">
+<p>Favorite color: <strong>tan</strong>     &#10084;</p>
+<p>Favorite website: 
+	<a href="https://youtube.com/" target="_blank">Youtube</a></p>
+<h2>Favorite activity &#128054;</h2>
+<img src="p2.png" alt="this is an image of my dog">
+	</div>
+	<div class="column2">
+<h3>School Schedule &#128221;</h3>
+	<ol>
+<li>ITP 104</li>
+<li>SOCI 235</li>
+<li>ECON 357</li>
+<li>ECON 487</li>
+<li>GEOL241</li>
+</ol>
+</div>
+<button type="button" class="btn btn-outline-dark"><a href="finalproject/index.html">Final Project: Typography</a></button>
+</div>
+
+
+
+<div class="clearfloat">
+</div>
+<div id="row3">
+
+<div class="column1">
+<h3>Assignments</h3>
+<ul>
+	<li><a href="assignment01/index.html" target="_blank">Assignment 01: Web resume</a></li>
+	<li><a href="assignment02/index.html" target="_blank">Assignment 02: TV show/movie article</a></li>
+	<li><a href="assignment03/index.html" target="_blank">Assignment 03:Two-column TV show/movie article</a></li>
+	<li><a href="assignment04/index.html" target="_blank">Assignment 04: Calendar</a></li>
+	<li><a href="assignment05/index.html" target="_blank">Assignment 05: TV show/movie photo collage</a></li>
+	<li><a href="assignment06/index.html" target="_blank">Assignment 06: Fonts/drop-down menu, overlay captions</a></li>
+	<li><a href="assignment07/index.html" target="_blank">Assignment 07: Final project proposal</a></li>
+	<li><a href="finalproject/index.html" target="_blank">Final Project</a></li>
+</ul>
+</div>
+	<div class="column2">
+<h3>Labs</h3>
+<ul>
+	<li> <a href="lab02/index.html" target="_blank">Lab 02: Student page</a></li>
+	<li> <a href="lab03/index.html" target="_blank">Lab 03: Updated resume</a></li>
+	<li> <a href="lab04/index.html" target="_blank">Lab 04: Student layout page</a></li>
+	<li> <a href="lab05/index.html" target="_blank">Lab 05: Form page</a></li>
+	<li> <a href="lab06/index.html" target="_blank">Lab 06: Simple image gallery</a></li>
+	<li><a href="lab07/index.html" target="_blank">Lab 07: Image puzzle</a></li>
+	<li><a href="lab08/index.html" target="_blank">Lab 08: Responsive student page</a></li>
+	<li><a href="lab09/index.html" target="_blank">Lab 09: Page with media</a></li>
+	<li><a href="lab10/index.html" target="_blank">Lab 09: Animation</a></li>
+</ul>
+	</div>
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>

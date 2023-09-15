@@ -1,0 +1,103 @@
+@font-face {
+	font-family:'itcbauhaus';
+	src:url("fonts/itcbauhaus.otf");
+}
+@font-face {
+	font-family:'druzhok';
+	src:url("fonts/druzhok.otf");
+}
+@font-face {
+	font-family:'dinnext';
+	src:url("fonts/dinnext.ttf");
+}
+@font-face {
+	font-family: 'pike';
+	src:url("fonts/pike-bold.otf");
+}
+@font-face {
+	font-family: 'cooperblack';
+	src:url("fonts/cooperblack.ttf");
+}
+#container {
+	width:1440px;
+	height: auto;
+	margin: 0 auto;
+}
+#header {
+	position:relative;
+	left:10%;
+}
+.t {
+	float:left;
+	margin-right:-10px;
+	width:90px; height:auto;
+}
+h1 {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size:80px;
+	padding-top:0px;
+}
+h2 {
+	padding:70px 0px;
+	font-family: 'Helvetica Neue', serif;
+	text-align: center;
+}
+body {
+	padding:20px 0px 0px 0px;
+	margin:0 auto;
+	background-color: white;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight:lighter;
+}
+
+.helvetica {
+	font-family: 'Helvetica Neue', sans-serif;
+}
+.bauhaus {
+	font-family:'itcbauhaus', sans-serif;
+}
+.pike {
+	font-family:'pike', sans-serif;
+}
+.notoserif {
+	font-family: 'Noto Serif', serif;
+}
+.dinnext {
+	font-family: 'dinnext', serif;
+}
+.cooperblack {
+	font-family:'cooperblack', serif;
+}
+.druzhok {
+	font-family: 'druzhok',serif;
+}
+#nav {
+	color:black;
+}
+#nav a{
+	width:150px;
+	height:30px;
+	display:inline-block;
+	text-align: center;
+	text-decoration: none;
+
+	color:black;
+	line-height:20px;
+	margin-left:10%;
+	padding:5px;
+	font-size:18px;
+
+}
+#nav a:hover {
+	background-color:black;
+	color:white;
+}
+
+#footer {
+	text-align:center;
+	background-color:black;
+	color:white;
+	height:110px;
+	line-height: 45px;
+	padding:3px;
+}

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+<title>Amy Kim - Practical Midterm</title>
+<style>
+body {
+	font-family:"Open Sans", sans-serif;
+	font-size:1.4rem;
+
+}
+body, h1, h3, p {
+	margin:0;
+}
+h1 {
+	font-size: 35px;
+	color:white;
+	text-shadow:1px 1px 10px black;
+	padding-bottom:5px;
+}
+
+h2 {
+	font-size: 30px;
+	color:black;
+	font-family: serif;
+}
+h3 {
+	font: 16px;
+}
+.container {
+	width:1100px;
+	margin: 0 auto;
+}
+
+#nav-wrapper {
+	z-index:9;
+	box-shadow: 0px 3px 8px 0px #d1d1d1;
+	height:70px;
+	background-color:#fff;
+	position:fixed;
+	padding:10px 0px 0px 40px;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+}
+#nav-wrapper img {
+	width:59px;
+	height:47px;
+}
+#header {
+	background-image:url(img/PizzaHut_Banner.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center;
+	height:500px;
+	font-weight:bold;
+}
+#header h1 {
+	padding: 330px 0px 10px 0px;
+}
+.button {
+	background-color:#E21216 ;
+	width:140px;
+	padding:10px;
+	text-align: center;
+	margin:10px;
+	display:inline-block;
+}
+.button a {
+	text-decoration: none;
+	color:white;
+	font-size:17px;
+}
+.button:hover {
+	background-color: maroon;
+}
+.smalltext {
+	color:white;
+	font-size:13px;
+	text-shadow: 1px 1px 10px #100;
+	padding:10px 0px 0px 10px;
+}
+#section1 {
+	font-size: 14px;
+	margin:35px 0px;
+}
+#section1 h3{
+	padding:15px 0px 0px 8px;
+	margin-bottom:-32px;
+}
+
+.description {
+	padding:0px 0px 30px 8px;
+	margin:0;
+}
+#section1 img {
+	height: 268px;
+	overflow: hidden;
+}
+.arrow {
+	position:relative;
+	top:5px;
+	left:88%;
+	width:30px;
+	height:30px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 50%;
+	display:inline-block;
+	vertical-align: top;
+	margin:0;
+}
+.arrow:hover {
+	background-color: #e8e4e4;
+}
+.image-section1 {
+	width:100%;
+	height:auto;
+	border-radius: 5px 5px 0px 0px;
+}
+.column1 {
+	display:inline-block;
+	vertical-align: top;
+	box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.3);
+	border-radius: 5px;
+	margin: 0px 10px;
+}
+.column2 {
+	display:inline-block;
+	vertical-align: top;
+	box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.3);
+	border-radius: 5px;
+	margin: 0px 10px;
+}
+.thickline {
+	border-bottom:2px solid #E21216;
+	margin: 10px 0px;
+}
+.thinline {
+	margin: 10px 0px;
+
+	border-top: 1px solid #E21216;
+}
+.columns {
+	height:132px;
+	width:255px;
+	box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.3);
+	float:left;
+	margin:0px 10px 30px 0px;
+}
+.columns p {
+	float:right;
+	font-size:17px;
+	padding:20px 20px 0px 0px;
+}
+
+.clearfloat {
+	clear:both;
+}
+#footer {
+	font-size:12px;
+	margin:0px 0px 12px 0px;
+}
+</style>
+</head>
+<body>
+<div id="nav-wrapper">
+<div class="container">
+	<a href="https://www.pizzahut.com" target="_blank"><img src="img/PizzaHut_Logo.png" alt="Pizza Hut logo"></a>
+</div></div>
+<div id="header">
+	<div class="container">
+	<h1>Big Dinner Box | $26.99</h1>
+	<div class="button">
+	<a href="http://www.pizzahut.com" target="_blank"><p>ORDER NOW</p></a></div>
+	<div class="smalltext">
+	<p>Limited time only. Prices higher in some locations.</p></div>
+</div>
+</div>
+	<div id="section1">
+	<div class="container">
+	<div class="column1">
+<img class="image-section1" src="img/PizzaHut_Pastas.jpg" alt="Pizza Hut pastas">
+<h3>Oven-baked pastas</h3>
+<div class="arrow"><p>></p></div>
+<div class="description">
+<p>Try all 4 recipes</p></div>
+	</div>
+	<div class="column2">
+<img class="image-section1" src="img/PizzaHut_Trio.jpg" alt="Pizza Hut trio">
+<h3>Pizza Hut Trio</h3>
+<div class="arrow"><p>></p></div>
+<div class="description">
+<p>Dinner for everyone with our new pasta</p></div>
+	</div>
+</div>
+</div>
+	<div id="section2">
+	<div class="container">
+	<div class="thickline"></div>
+	<div class="thinline"></div>
+<h2>Popular Pizzas</h2>
+<div class="columns">
+<img src="img/PopularPizzas_PanSupreme.png" alt="Supreme pizza Large Original Pan®">
+<p><strong>Supreme pizza</strong><br>Large Original Pan®</p>
+</div>
+<div class="columns">
+<img src="img/PopularPizzas_Meat.png" alt="Meat Lover's pizza Large Original Pan®">	
+<p><strong>Meat Lover's pizza</strong><br>Large Original Pan®</p>
+</div>
+<div class="columns">
+<img src="img/PopularPizzas_Cheese.png" alt="Cheese pizza Large hand tossed">	
+<p><strong>Cheese pizza</strong><br>Large hand tossed</p>
+</div>
+<div class="columns">
+<img src="img/PopularPizzas_Pepperoni.png" alt="Pepperoni pizza Large hand tossed">	
+<p><strong>Pepperoni pizza</strong><br>Large hand tossed</p>
+</div>
+	
+<div class="clearfloat"></div>
+<div class="thinline"></div>
+	<div class="thickline"></div>
+</div>
+</div>
+<div id="footer">
+<div class="container">
+<p>© 2023 Pizza Hut, LLC. All Rights Reserved. The Pizza Hut Name, Logos And Related Marks Are Trademarks Of Pizza Hut, LLC. All Other Trademarks Are The Property Of Their Respective Owners.</p>
+</div>
+</div>
+</body>
+</html>
