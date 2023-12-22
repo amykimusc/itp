@@ -1,1 +1,1 @@
-https://uscwebdev.github.io/itp104-submissions-amykimusc/
+https://amykimusc.github.io/itp/
