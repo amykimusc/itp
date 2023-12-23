@@ -2,20 +2,39 @@
 <html>
 <head>
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@200;300;400&display=swap" rel="stylesheet">
-
-
 <title>Amy Kim | Student Page</title>
 <meta charset="UTF-8">
 <meta name="description" content="Amy Kim's Student Page">
 <meta name="keywords" content="USC, Amy, Homepage, Website, Daeun, Kim, HTML, CSS, ITP104">
 <meta name="author" content="Amy Kim">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="styles.css">	
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@200;300;400&display=swap" rel="stylesheet">
+<!--animate-->
+ <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <script
+      src = "https://cdn.jsdelivr.net/gh/KodingKhurram/animate.css-dynamic@main/animate.min.js">
+    </script>
+
 <style>
+.flexslider {
+	padding-top:20px;
+	position:absolute;
+	left:45%;
+	width:40%; height:auto;
+	display:inline-block;
+	border: 1px solid red;
+}
 
 a:link {
   color: royalblue;
@@ -31,7 +50,8 @@ a:visited {
 
 body {
 	font-family: 'Roboto Flex', sans-serif;
-	background-image: url(artboard2.png);
+	/*background-image: url(artboard2.png);*/
+	background-color: black;
 	margin:0;
 }
 	strong {color:white;
@@ -85,78 +105,150 @@ body {
 	.column2 {float:none; width:100%}
 	img {width:100%;}
 }
+.container {
+	background-color: aliceblue;
+	
+}
+/*}*/
+.row {
+
+	margin-bottom:2%;
+}
+.row img {
+	width:100%;
+	margin: 0 auto;
+}
+.col {
+
+
+}
+
+.float-end {
+	width:100%;
+	align-content: right;
+	padding: 8% 2%;
+	/*0% 0% 0% 3.5%; border: 1px solid green;*/
+}
+
+.links {
+	text-align: center;
+}
+.categories {
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 1%;
+	margin-bottom: 1%;}
+
+.posts {
+	padding-left:3%;
+}
+.img1 {
+	height:100%;
+	width:auto;
+}
+.img2 {
+	height:100%;
+	width:auto;
+}
+.img3 {
+	height:100%;
+	width:auto;
+}
+.img4 {
+	height:100%;
+	width:auto;
+}
+.art {
+	margin: 2% 0%;
+}
+.video {
+	margin-bottom:1%;
+}
+
 </style>
 </head>
 <body>
-<div id="container">
+<div class="container text-container">
 
-<div id="row1">	
+<div class="row">
+
+	<div class="col-7">
 	<h1>Amy Kim</h1>
-<p>
-	<a href="mailto:kimamy@usc.edu">kimamy@usc.edu</a></p>
+<div class="links">
+<p>A web and software developer and artist</p>
+<p><em><a href="lab03/index.html">Resume</a> &emsp;  <a href="https://www.linkedin.com/in/amy-daeun-kim/">LinkedIn</a> &emsp; <a href="mailto:amykimvc@gmail.com">Email</a> &emsp; <a href="https://instagram.com/amiieu/">Instagram</a></em></p>
 </div>
-<div class="clearfloat">
+<div class="posts">
+<div class="categories">Posts</div>
+	<li><a href="assignment06/index.html" target="_blank">Documentary review: "The most hated man on the internet"</a></li>
+	<li>
+		<a href="lab09/index.html" target="_blank">Mock advertisement: "Resident Evil 4 Remake"</a></li>
+
+<div class="categories">Essays & Papers</div>
+
+<li><a href="img/Econ 318 Empirical Project-Amy.pdf">Responses to risks: reality or perception?</a></li>
+
+<li><a href="img/Aging Asian countries with urbanization, feminism, mobility, and housing.pdf">Aging Asian countries with urbanization, feminism, mobility, and housing</a></li>
+
+<li><a href="img/Geol 241 reflection essay.pdf">Politics and economics of fossil fuels and renewables</a></li>
+
+<li><a href="img/SUD_factors.pdf">Economics & statistics on substance use disorder</a></li>
+
+<li><a href="img/In the shadows of legality- analyzing the interplay of precarious legality, policy frameworks, and migration management.pdf">In the shadows of legality: analyzing the interplay of precarious legality, policy frameworks, and migration management</a></li>
+
+<li><a href="img/7_Economic and Fiscal Impacts of Immigration.pdf">Economic and Fiscal Impacts of Immigration</a></li>
+
+<li><a href="img/4_SOCI 215 The battle and co-constitution between financial market participants and regulations.pdf">The battle and co-constitution between financial market participants and regulations</a></li>
+
+<li><a href="img/6_Comm324_ Bargaining for Love and Power in Arranged International Marriages.pdf"> Bargaining for Love and Power in Arranged International Marriages
+</a></li>
+
+<li><a href="img/5_Anth Term Paper_Caste System Reinvented in the United States.pdf"> Caste System Reinvented in the United States
+</a></li>
 </div>
-<div id="row2">
-	<div class="column1">
-<p>Favorite color: <strong>tan</strong>     &#10084;</p>
-<p>Favorite website: 
-	<a href="https://youtube.com/" target="_blank">Youtube</a></p>
-<h2>Favorite activity &#128054;</h2>
-<img src="p2.png" alt="this is an image of my dog">
-	</div>
-	<div class="column2">
-<h3>School Schedule &#128221;</h3>
-	<ol>
-<li>ITP 104</li>
-<li>SOCI 235</li>
-<li>ECON 357</li>
-<li>ECON 487</li>
-<li>GEOL241</li>
-</ol>
+	
+
 </div>
-<button type="button" class="btn btn-outline-dark"><a href="finalproject/index.html">Final Project: Typography</a></button>
+<div class="col">
+<img class="float-end" src="img/profile2.jpg" alt text="Amy's profile image">
+
+
+<button type="button" class="btn btn-outline-dark"><a href="finalproject/index.html">Project: Typography</a></button>
+&nbsp;
+<button type="button" class="btn btn-outline-dark"><a href="gallery.html">Gallery</a></button>
+&nbsp;
+<button type="button" class="btn btn-outline-dark"><a href="magazine.html">Magazine</a></button>
+
+<button type="button" class="btn btn-outline-dark"><a href="lab06/index.html">What is contemporary art?</a></button>
+
+</div>
+</div>
+	
+<div class="row">
+<div class="col" align="center">
+	<div class="video">
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/g3FsJukBt8A?si=mRXoEVQxkNK5QNRX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+</div>
 </div>
 
 
+</div>
 
-<div class="clearfloat">
-</div>
-<div id="row3">
-
-<div class="column1">
-<h3>Assignments</h3>
-<ul>
-	<li><a href="assignment01/index.html" target="_blank">Assignment 01: Web resume</a></li>
-	<li><a href="assignment02/index.html" target="_blank">Assignment 02: TV show/movie article</a></li>
-	<li><a href="assignment03/index.html" target="_blank">Assignment 03:Two-column TV show/movie article</a></li>
-	<li><a href="assignment04/index.html" target="_blank">Assignment 04: Calendar</a></li>
-	<li><a href="assignment05/index.html" target="_blank">Assignment 05: TV show/movie photo collage</a></li>
-	<li><a href="assignment06/index.html" target="_blank">Assignment 06: Fonts/drop-down menu, overlay captions</a></li>
-	<li><a href="assignment07/index.html" target="_blank">Assignment 07: Final project proposal</a></li>
-	<li><a href="finalproject/index.html" target="_blank">Final Project</a></li>
-</ul>
-</div>
-	<div class="column2">
-<h3>Labs</h3>
-<ul>
-	<li> <a href="lab02/index.html" target="_blank">Lab 02: Student page</a></li>
-	<li> <a href="lab03/index.html" target="_blank">Lab 03: Updated resume</a></li>
-	<li> <a href="lab04/index.html" target="_blank">Lab 04: Student layout page</a></li>
-	<li> <a href="lab05/index.html" target="_blank">Lab 05: Form page</a></li>
-	<li> <a href="lab06/index.html" target="_blank">Lab 06: Simple image gallery</a></li>
-	<li><a href="lab07/index.html" target="_blank">Lab 07: Image puzzle</a></li>
-	<li><a href="lab08/index.html" target="_blank">Lab 08: Responsive student page</a></li>
-	<li><a href="lab09/index.html" target="_blank">Lab 09: Page with media</a></li>
-	<li><a href="lab10/index.html" target="_blank">Lab 09: Animation</a></li>
-</ul>
-	</div>
-</div>
-</div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script src="lightbox/dist/js/lightbox-plus-jquery.min.js"></script>
+
+<script src="flexslider/jquery.flexslider.js"></script> 
+<script type="text/javascript">
+  $(window).load(function() {
+    $('.flexslider').flexslider();
+    animation: "slide"
+    controlNav: "thumbnails"
+  });
+</script>
 
 </body>
 </html>

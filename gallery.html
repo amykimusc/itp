@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amy Kim's Student Page</title>
+<link rel="stylesheet" href="styles.css">	
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="style.min.css" />
+
+    <!-- Add lightbox styles from the simplelightbox-master folder -->
+    <link rel="stylesheet" href="simplelightbox-master/dist/simplelightbox.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<script src="simplelightbox-master/dist/simple-lightbox.jquery.min.js"></script>
+
+
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <script src="js/modernizr.min.js"></script>
+</head>
+<body>
+<div class="container">
+<h1 style="margin-top: 150px;" align="center">Gallery</h1>
+<main class="photos-gallery clearfix" role="main">
+
+    <div class="photos-gallery">
+        <!-- Images in a single row -->
+        <div class="picture lightbox" data-src="img/IMG_1385.JPG"> <img src="img/IMG_1385.JPG" alt text="watercolor reproduction of John Singer Sargent 'Lady with Parasole' 1900"> </div>
+        <div class="picture lightbox" data-src="img/IMG_1399.JPG"> <img src="img/IMG_1399.JPG" alt text="charcoal drawing on paper"> </div>
+        <div class="picture lightbox" data-src="img/intimacy.JPG"> <img src="img/intimacy.JPG" alt text="acrylic painting on canvas"> </div>
+        <div class="picture lightbox" data-src="img/intimacy2.JPG"> <img src="img/intimacy2.JPG" alt text="acrylic painting on canvas"> </div>
+        <div class="picture lightbox" data-src="img/original.png"> <img src="img/original.png" alt text="collage on bear sculpture"> </div>
+        <div class="picture lightbox" data-src="img/collage1.png"> <img src="img/collage1.png" alt text="collage on multiple bear sculpture"> </div>
+        <div class="picture lightbox" data-src="img/boobjob.png"> <img src="img/boobjob.jpg" alt text="boob job sculpture, plaster"> </div>
+        <div class="picture lightbox" data-src="img/IMG_2839.jpg"> <img src="img/IMG_2839.jpg" alt text="collage work in progress"> </div>
+        <div class="picture lightbox" data-src="img/film.png"> <img src="img/film.png" alt text="a shot of short film"> </div>
+        <div class="picture lightbox" data-src="img/figure drawing3.JPG"> <img src="img/figure drawing3.JPG" alt text="charcoal figure drawing"> </div>
+        
+    </div>
+</main>
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="gallery_plugin/js/foundation.min.js"></script>
+    <script src="gallery_plugin/js/pycs-layout.jquery.js"></script>
+
+    <!-- Add lightbox script from the simplelightbox-master folder -->
+    <script src="simplelightbox-master/dist/simple-lightbox.jquery.min.js"></script>
+
+    <script>
+        $(document).foundation();
+        $(document).ready(function () {
+            $(".photos-gallery").pycsLayout({
+                gutter: 4,
+                idealHeight: parseInt($(window).height() / 2),
+            });
+
+            // Initialize lightbox
+            $(".lightbox").simpleLightbox();
+        });
+    </script>
+
+</body>
+</html>
