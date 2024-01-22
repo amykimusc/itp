@@ -23,20 +23,20 @@
 
 	<style>
 		a:link {
-			color: lightyellow;
+			color: black;
 			background-color: transparent;
 			text-decoration: none;
 		}
 
 		a:visited {
-			color: lightyellow;
+			color: black;
 			background-color: transparent;
 			text-decoration: none;
 		}
 
 		body {
-            background-color: black;
-        }
+			background-color: black;
+		}
 
 		.row {
 
@@ -44,7 +44,7 @@
 		}
 
 		.float-end {
-			width: 50%;
+			width: 100%;
 			align-content: right;
 			padding: 8% 2%;
 			/*0% 0% 0% 3.5%; border: 1px solid green;*/
@@ -75,16 +75,17 @@
 
 
 		.btn {
-			margin: 1%;
+			padding: 1%;
+		
 		}
 
 		.thumbnails {
 			width: 100%;
-			border: 1px solid red;
+		
 
 		}
 
-		
+
 		h1 {
 			padding-bottom: 0%;
 		}
@@ -92,43 +93,57 @@
 		.papers {
 			text-decoration: underline;
 			padding-top: 3%;
+			text-align: left;
 		}
 
 		#header {
-            height: 20%;
-            background-color: rgb(221, 239, 253);
-            text-align: center;
-            padding-top: 1em;
-            padding-bottom: 0.7em;
-            margin-bottom: 3%;
-        }
+			height: 20%;
+			width: auto;
+			background-color: rgb(221, 239, 253);
+			text-align: left;
+			padding-top: 1em;
+			padding-bottom: 0.7em;
+			margin: 0 auto;
+
+		}
+
 		#main {
-            margin: 0 auto;
-            padding: 2%;
-            text-align: center;
-            width: 90%;
-        }
+			margin: 0 auto;
+
+			text-align: center;
+			width: 90%;
+		}
+
 		.container {
-			background-color: black;
-			color:whitesmoke;
+			background-color: rgb(221, 239, 253);
+			color: black;
+			margin: 0 auto;
+			padding: 4%;
+		}
+		.introduction {
+			width: 40%;
+			margin: 0 auto;
+			padding: 2%;
+			
 		}
 	</style>
 </head>
 
 <body>
 
-
-	<div id="header">
-		<h1>Amy Kim</h1>
-		<p>A web and software developer and economist</p>
-	</div>
 	<div id="main">
 		<div class="container">
+			<div id="header">
+				<h1>Amy Kim</h1>
+				<p>A web and software developer and economist</p>
+			</div>
+
+
 
 			<div class="row">
 
 				<div class="links">
-					
+
 					<button type="button" class="btn btn-outline-primary"><a href="lab03/index.html">Resume</a></button>
 					&nbsp;
 					<button type="button" class="btn btn-outline-primary"><a
@@ -242,28 +257,42 @@
 							Reinvented in the United States
 						</a></li>
 						-->
-					<p><a href="img/Aging Asian countries with urbanization, feminism, mobility, and housing.pdf">Aging
-							Asian countries with urbanization, feminism, mobility, and housing</a></p>
+					<p><a href="img/Aging Asian countries with urbanization, feminism, mobility, and housing.pdf">
+						1. Aging Asian countries with urbanization, feminism, mobility, and housing crises (2023)</a></p>
 
-					<p><a href="img/Geol 241 reflection essay.pdf">Politics and economics of fossil fuels and
-							renewables</a></p>
+					<p><a href="img/Geol 241 reflection essay.pdf">2. Politics and economics of fossil fuels and
+							renewables (2023)</a></p>
 
-					<p><a href="img/SUD_factors.pdf">Economics & statistics on substance use disorder</a></p>
+					<p><a href="img/SUD_factors.pdf">3. Economics & statistics on substance use disorder (2022)</a></p>
 
 					<p><a
-							href="img/In the shadows of legality- analyzing the interplay of precarious legality, policy frameworks, and migration management.pdf">In
-							the shadows of legality: analyzing the interplay of precarious legality, policy
+							href="img/In the shadows of legality- analyzing the interplay of precarious legality, policy frameworks, and migration management.pdf">
+							4. In
+							the shadows of legality: <br>analyzing the interplay of precarious legality, policy
 							frameworks,
-							and migration management</a></p>
+							and migration management (2023)</a></p>
 
-					<p><a href="img/7_Economic and Fiscal Impacts of Immigration.pdf">Economic and Fiscal
+					<p><a href="img/7_Economic and Fiscal Impacts of Immigration.pdf">5. Economic and Fiscal
 							Impacts
 							of
-							Immigration</a></p>
+							Immigration (2019)</a></p>
 				</div>
 				<button type="button" class="btn btn-outline-primary"><a href="lab06/index.html">What is contemporary
 						art?</a></button>
-				<div class="col">
+				<!--introduction-->
+					<div class="col-6 introduction">
+						<div class="categories">About</div>
+						<p>Hello! I'm from South Korea and have been in the U.S. for 9 years now.
+							I have practiced fine art and graphic design in Idyllwild Arts Academy and School of the Art Institute of Chicago (SAIC)
+							and then have transferred the University of California (USC) to study economics, computer programming, and web development.
+							I built this website from scratch HTML/CSS and also some bootstrap and javascript.
+							While my programming skills are still developing, I'm eager to incorporate what I've learned and practiced
+							in contemporary arts to improve design and function in solving problems.
+
+						</p>
+					</div>
+				<!--profile picture-->
+						<div class="col-6">
 					<img class="float-end" src="img/profile2.jpg" alt text="Amy's profile image">
 				</div>
 			</div>
