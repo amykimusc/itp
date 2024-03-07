@@ -6,36 +6,63 @@
 	<title>Amy Kim | Student Page</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="Amy Kim's Student Page">
-	<meta name="keywords" content="USC, Amy, Homepage, Website, Daeun, Kim, HTML, CSS, ITP104">
+	<meta name="keywords" content="USC, Amy, Homepage, Website, Daeun, Kim, HTML, CSS, ITP, Javascript, React">
 	<meta name="author" content="Amy Kim">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="stylesheet" href="styles.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@200;300;400&display=swap" rel="stylesheet">
-
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 	<style>
-		a:link {
+		.links a:link {
 			color: black;
 			background-color: transparent;
 			text-decoration: none;
 		}
 
-		a:visited {
+		.links a:visited {
 			color: black;
 			background-color: transparent;
 			text-decoration: none;
 		}
 
-		body {
-			background-color: black;
+		.posts a:link {
+			color: black;
+			background-color: transparent;
+			text-decoration: none;
+		}
+
+		.posts a:visited {
+			color: black;
+			background-color: transparent;
+			text-decoration: none;
+		}
+
+		.papers a:link {
+			color: black;
+			background-color: transparent;
+			text-decoration: none;
+		}
+
+		.papers a:visited {
+			color: black;
+			background-color: transparent;
+			text-decoration: none;
+		}
+
+		.btn a:link {
+			color: black;
+			background-color: transparent;
+			text-decoration: none;
+		}
+
+		.btn a:visited {
+			color: black;
+			background-color: transparent;
+			text-decoration: none;
 		}
 
 		.row {
@@ -57,54 +84,46 @@
 		.categories {
 			text-transform: uppercase;
 			font-style: italic;
-			font-weight: bold;
-			margin-top: 1%;
-			margin-bottom: 1%;
+			text-align: center;
+			margin: 1em 0em 2em 0em;
+			font-size: 1.5em;
 		}
 
-		.posts {
-			padding-left: 3%;
-			display: flex;
-			flex-direction: row;
-			text-align: center;
-		}
 
 		.posts p {
-			margin-top: 1%;
+			margin: 1.8em 0em 1em 0em;
+			font-style: italic;
+			text-decoration: underline;
 		}
 
 
 		.btn {
-			padding: 1%;
-		
+			padding: 1em;
+			margin: 3em 0em 2em 0em;
 		}
 
 		.thumbnails {
 			width: 100%;
-		
+			border: 1px solid lightgray;
+		}
+
+		#header {
+			font-family: "Inter", Arial, sans-serif;
+			text-align: center;
 
 		}
 
-
 		h1 {
-			padding-bottom: 0%;
+			padding: 1em 0em 1em 0em;
+			font-size: 3.5em;
+			font-weight: 280;
+
 		}
 
 		.papers {
 			text-decoration: underline;
 			padding-top: 3%;
 			text-align: left;
-		}
-
-		#header {
-			height: 20%;
-			width: auto;
-			background-color: rgb(221, 239, 253);
-			text-align: left;
-			padding-top: 1em;
-			padding-bottom: 0.7em;
-			margin: 0 auto;
-
 		}
 
 		#main {
@@ -115,16 +134,27 @@
 		}
 
 		.container {
-			background-color: rgb(221, 239, 253);
+
 			color: black;
 			margin: 0 auto;
 			padding: 4%;
 		}
+
 		.introduction {
-			width: 40%;
+			text-align: left;
 			margin: 0 auto;
 			padding: 2%;
-			
+
+		}
+
+		body {
+			font-family: "Inter", Arial, sans-serif;
+			margin: 0;
+		}
+
+		.nutritionify {
+			text-decoration: underline;
+
 		}
 	</style>
 </head>
@@ -137,8 +167,6 @@
 				<h1>Amy Kim</h1>
 				<p>A web and software developer and economist</p>
 			</div>
-
-
 
 			<div class="row">
 
@@ -165,75 +193,41 @@
 				<div class="categories">
 					<p>projects</p>
 				</div>
-				<div class="posts">
-					<div class="col">
-						<a href="sushi/index.html"><img src="thumbnails/shopping_cart.png" class="thumbnails">
-							<p>Sushi Order
-								Shopping Cart</p>
-						</a>
-					</div>
-					<div class="col">
-						<a href="assignment06/index.html" target="_blank"><img src="thumbnails/hated.png"
-								class="thumbnails">
-							<p>Documentary review: "The most hated man on
-								the internet"</p>
-						</a>
-					</div>
-					<div class="col">
-						<a href="lab09/index.html"><img src="thumbnails/resident_evil.png" class="thumbnails">
-							<p>Mock advertisement: <br>"Resident Evil 4 Remake"</p>
-						</a>
-					</div>
-					<div class="col">
-						<a href="magazine.html"><img src="thumbnails/page7.jpg" alt="about page" class="thumbnails">
-							<p>Magazine: Money flushed on makeup 2014-18</p>
-						</a>
-					</div>
+				<div class="col-12 col-lg-8 posts video">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/tiMhlFEdo6I?si=ZpYPmFgm3d5vaD7N"
+						title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+					encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					<a href="https://devpost.com/software/nutritionify">
+						<p>Nutritionify</p>
+					</a>
 				</div>
 
+				<div class="col-12 col-md-6 col-lg-4 mt-3 posts">
+					<a href="https://react-g77akj.stackblitz.io/"><img src="thumbnails/sushi_thumbnail.png"
+							class="thumbnails">
+						<p>Sushi Shopping Cart</p>
+					</a>
+				</div>
+				<div class="col-12 col-md-6 col-lg-4 mt-3 posts">
+
+					<a href="https://react-h4wjwm.stackblitz.io/" target="_blank"><img
+							src="https://uscwebdev.github.io/itp301-submissions-amykimusc/lab_04/img/fry2.jpeg"
+							class="thumbnails">
+						<p>React Image Gallery</p>
+					</a>
+				</div>
+				<div class="col-12 col-md-6 col-lg-4 mt-3 posts">
+
+					<a href="lab09/index.html"><img src="thumbnails/resident_evil.png" class="thumbnails">
+						<p>Mock advertisement: <br>"Resident Evil 4 Remake"</p>
+					</a>
+				</div>
+				<div class="col-12 col-md-6 col-lg-4 mt-3 posts">
+					<a href="magazine.html"><img src="thumbnails/page7.jpg" alt="about page" class="thumbnails">
+						<p>Magazine: Money flushed on makeup 2014-18</p>
+					</a>
+				</div>
 			</div>
-			<!--magazine-->
-
-
-
-			<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page 
-						
-						<div id="wowslider-container1">
-							<div class="ws_images"><ul>
-								<li><img src="data1/images/page1.jpg" alt="about page" title="page1" id="wows1_0"/></li>
-								<li><img src="data1/images/page2.jpg" alt="cover" title="page2" id="wows1_1"/></li>
-								<li><img src="data1/images/page3.jpg" alt="page 1-2" title="page3" id="wows1_2"/></li>
-								<li><img src="data1/images/page4.jpg" alt="page 3-4" title="page4" id="wows1_3"/></li>
-								<li><img src="data1/images/page5.jpg" alt="page 5-6" title="page5" id="wows1_4"/></li>
-								<li><img src="data1/images/page6.jpg" alt="page 7-8" title="page6" id="wows1_5"/></li>
-								<li><img src="data1/images/page7.jpg" alt="page 9-10" title="page7" id="wows1_6"/></li>
-								<li><img src="data1/images/page8.jpg" alt="page 11-12" title="page8" id="wows1_7"/></li>
-								<li><img src="data1/images/page9.jpg" alt="page 13-14" title="page9" id="wows1_8"/></li>
-								<li><img src="data1/images/page10.jpg" alt="page 15-16" title="page10" id="wows1_9"/></li>
-								<li><img src="data1/images/page11.jpg" alt="page 17-18" title="page11" id="wows1_10"/></li>
-								<li><a href="http://wowslider.net"><img src="data1/images/page12.jpg" alt="css image gallery" title="page12" id="wows1_11"/></a></li>
-								<li><img src="data1/images/page13.jpg" alt="page13" title="page13" id="wows1_12"/></li>
-							</ul></div>
-						<div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">image slider</a> by WOWSlider.com v9.0</div>
-							<div class="ws_shadow"></div>
-							</div>	
-					
-							<div class="description">
-								<p>Amy Kim<br><em>Money Flushed on Makeup 2014-18</em><br>Risograph print</p>
-							</div>
-						
-							End WOWSlider-->
-
-			<!--profile img-->
-
-
-			<!--
-						<button type="button" class="btn btn-outline-dark"><a href="finalproject/index.html">Project: Typography</a></button>
-						&nbsp;
-						<button type="button" class="btn btn-outline-dark"><a href="gallery.html">Gallery</a></button>
-						&nbsp;
-						<button type="button" class="btn btn-warning"><a href="magazine.html">Magazine</a></button>
-						&nbsp;-->
 
 
 
@@ -241,24 +235,9 @@
 				<div class="categories">Essays & Papers</div>
 				<div class="col papers">
 
-					<!--
-					<li><a href="img/Econ 318 Empirical Project-Amy.pdf">Responses to risks: reality or perception?</a>
-					</li>
-
-					<li><a
-							href="img/4_SOCI 215 The battle and co-constitution between financial market participants and regulations.pdf">The
-							battle and co-constitution between financial market participants and regulations</a></li>
-
-					<li><a href="img/6_Comm324_ Bargaining for Love and Power in Arranged International Marriages.pdf">
-							Bargaining for Love and Power in Arranged International Marriages
-						</a></li>
-
-					<li><a href="img/5_Anth Term Paper_Caste System Reinvented in the United States.pdf"> Caste System
-							Reinvented in the United States
-						</a></li>
-						-->
 					<p><a href="img/Aging Asian countries with urbanization, feminism, mobility, and housing.pdf">
-						1. Aging Asian countries with urbanization, feminism, mobility, and housing crises (2023)</a></p>
+							1. Aging Asian countries with urbanization, feminism, mobility, and housing crises
+							(2023)</a></p>
 
 					<p><a href="img/Geol 241 reflection essay.pdf">2. Politics and economics of fossil fuels and
 							renewables (2023)</a></p>
@@ -280,19 +259,39 @@
 				<button type="button" class="btn btn-outline-primary"><a href="lab06/index.html">What is contemporary
 						art?</a></button>
 				<!--introduction-->
-					<div class="col-6 introduction">
-						<div class="categories">About</div>
-						<p>Hello! I'm from South Korea and have been in the U.S. for 9 years now.
-							I have practiced fine art and graphic design in Idyllwild Arts Academy and School of the Art Institute of Chicago (SAIC)
-							and then have transferred the University of California (USC) to study economics, computer programming, and web development.
-							I built this website from scratch HTML/CSS and also some bootstrap and javascript.
-							While my programming skills are still developing, I'm eager to incorporate what I've learned and practiced
-							in contemporary arts to improve design and function in solving problems.
+				<div class="col-12 col-lg-6 mt-3 introduction">
+					<div class="categories">About</div>
+					<p>Hello! I'm Amy from South Korea and have been in the U.S. for 9 years now.
+						I have practiced fine art and graphic design in Idyllwild Arts Academy and School of the Art
+						Institute of Chicago (SAIC)
+						and then have transferred the University of California (USC) to study economics, computer
+						programming, and web development.<br><br>
 
-						</p>
-					</div>
+						The <strong><em><a href="https://devpost.com/software/nutritionify"
+									class="nutritionify">Nutritionify</a></strong></em> project was an
+						application for hackathon: Athenahacks 2024. Nutritionify utilizes the Spotify API to draw
+						real user data into the server, reports back the top tracks and info in the format of a
+						nutrition guide.
+						I developed the frontend components using Vite, JS, React, and Spotify API. We faced some
+						challenges
+						as it was our first time using Vite, Ngrok, APIs, but we learned a lot in the process.<br><br>
+
+						The Sushi Shopping Cart is still under development. I initially created the responsive page with
+						Javascript and HTML,
+						then later converted it to React and used StackBlitz to deploy it. Similarly, the React Image
+						Gallery
+						was created using React and bootstrap. The Resident Evil 4 mock advertisement and Magazine
+						showcase design and color choices following design principles and rationales.
+
+						<br><br>
+						My programming skills are still developing, and I'm eager to incorporate what I've learned and
+						practiced
+						in contemporary arts to improve design and function in solving problems.
+
+					</p>
+				</div>
 				<!--profile picture-->
-						<div class="col-6">
+				<div class="col-12 col-lg-6 mt-3">
 					<img class="float-end" src="img/profile2.jpg" alt text="Amy's profile image">
 				</div>
 			</div>
@@ -336,22 +335,6 @@
 		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 		crossorigin="anonymous"></script>
 
-	<!--lightbox
-	<script src="lightbox/dist/js/lightbox-plus-jquery.min.js"></script>-->
-	<!--flexslider
-	<script src="flexslider/jquery.flexslider.js"></script>
-	<script type="text/javascript">
-		$(window).load(function () {
-			$('.flexslider').flexslider();
-			animation: "slide"
-			controlNav: "thumbnails"
-		});
-	</script>-->
-
-	<!--WOWSlider
-	<script type="text/javascript" src="engine1/wowslider.js"></script>
-	<script type="text/javascript" src="engine1/script.js"></script>
-	 End WOWSlider.com BODY section -->
 </body>
 
 </html>
