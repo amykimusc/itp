@@ -2,8 +2,9 @@
 <html>
 
 <head>
-
-	<title>Amy Kim | Student Page</title>
+	<link rel="icon" type="image/x-icon" href="/thumbnails/favicon-32x32.png">
+	<title>Amy Kim | Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta charset="UTF-8">
 	<meta name="description" content="Amy Kim's Student Page">
 	<meta name="keywords" content="USC, Amy, Homepage, Website, Daeun, Kim, HTML, CSS, ITP, Javascript, React">
@@ -17,64 +18,11 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 	<style>
-		.links a:link {
-			color: black;
-			background-color: transparent;
-			text-decoration: none;
-		}
-
-		.links a:visited {
-			color: black;
-			background-color: transparent;
-			text-decoration: none;
-		}
-
-		.posts a:link {
-			color: black;
-			background-color: transparent;
-			text-decoration: none;
-		}
-
-		.posts a:visited {
-			color: black;
-			background-color: transparent;
-			text-decoration: none;
-		}
-
-		.papers a:link {
-			color: black;
-			background-color: transparent;
-			text-decoration: none;
-		}
-
-		.papers a:visited {
-			color: black;
-			background-color: transparent;
-			text-decoration: none;
-		}
-
-		.btn a:link {
-			color: black;
-			background-color: transparent;
-			text-decoration: none;
-		}
-
-		.btn a:visited {
-			color: black;
-			background-color: transparent;
-			text-decoration: none;
-		}
-
-		.row {
-
-			margin-bottom: 2%;
-		}
-
-		.float-end {
-			width: 100%;
-			align-content: right;
-			padding: 8% 2%;
-			/*0% 0% 0% 3.5%; border: 1px solid green;*/
+		@font-face {
+			font-family: 'Cafe24ClassicType-Regular';
+			src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Cafe24ClassicType-Regular.woff2') format('woff2');
+			font-weight: normal;
+			font-style: normal;
 		}
 
 		.links {
@@ -102,64 +50,18 @@
 			margin: 1em 0em 0em 0em;
 		}
 
-		.thumbnails {
-			width: 100%;
-			border: 1px solid lightgray;
-		}
-
-		#header {
-			font-family: "Inter", Arial, sans-serif;
-			text-align: center;
-
-		}
 
 		h1 {
 			padding: 0.5em 0em 0.5em 0em;
 			font-size: 3.5em;
 			font-weight: 280;
-
+			font-family: 'Cafe24ClassicType-Regular';
 		}
 
-		.papers {
-			text-decoration: underline;
-			padding-top: 3%;
-			text-align: left;
-		}
-
-		#main {
-			margin: 0 auto;
-
-			text-align: center;
-			width: 90%;
-		}
-
-		.container {
-
-			color: black;
-			margin: 0 auto;
-			padding: 4%;
-		}
-
-		.introduction {
-			text-align: left;
-			margin: 0 auto;
-			padding: 2%;
-
-		}
 
 		body {
 			font-family: "Inter", Arial, sans-serif;
 			margin: 0;
-		}
-
-		.nutritionify {
-			text-decoration: underline;
-
-		}
-
-		.kojobs img {
-			width: auto;
-			height: 500px;
 		}
 	</style>
 </head>
@@ -169,7 +71,7 @@
 	<div id="main">
 		<div class="container">
 			<div id="header">
-				<h1>Amy Kim</h1>
+				<h1>amy kim</h1>
 				<p>A web developer and UX designer with a background in economics and design</p>
 			</div>
 
@@ -198,127 +100,145 @@
 				<div class="categories">
 					<p>projects</p>
 				</div>
-				<div class="sapphic-spark posts">
-					<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" 
-					src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2Fr2pmiJyYHXPQYVRjPyc3k5%2FA25%253A-Final-Project-V3%3Fnode-id%3D2060%253A4767%26t%3DB5HaDAebsUyOaDMb-1" allowfullscreen></iframe>
-				<a href="https://www.figma.com/proto/rEu32qsbgBhV3rfda1K0W1/A26%3A-Final-Presentation-V3?page-id=0%3A1&node-id=70-2100&viewport=-514%2C298%2C0.88&t=cSMCDhWOuvq3U3W3-1&scaling=min-zoom&starting-point-node-id=70%3A2100&show-proto-sidebar=1" target="_blank"><p>Sapphic Spark (Figma Prototype) - Dating app for sapphic individuals</p></a>
-				<a href="https://www.figma.com/proto/r2pmiJyYHXPQYVRjPyc3k5/A25%3A-Final-Project-V3?page-id=0%3A1&node-id=2060-4767&viewport=1973%2C1663%2C1&t=At6q0tuusQsXIdXl-1&scaling=scale-down&starting-point-node-id=2060%3A4767&show-proto-sidebar=1" target="_blank"><p>Flow 1 : new user</p></a>
-				<a href="https://www.figma.com/proto/r2pmiJyYHXPQYVRjPyc3k5/A25%3A-Final-Project-V3?page-id=0%3A1&node-id=2127-6231&viewport=1257%2C121%2C0.14&t=FFvbgFi1ynbESvrL-1&scaling=scale-down&starting-point-node-id=2127%3A6231&show-proto-sidebar=1" target="_blank"><p>Flow 2 : superuser</p></a>
+				<div class="sapphic-spark posts mt-3">
+					<a href="sapphic.html"><img src="sapphic_spark/70S.png" alt="sapphic spark design systems"><p>Project
+						Documentation</p></a>
+					</a>
 				</div>
-				<p>Authors: Cherise Clough, Amy Kim, Emily Henriquez</p>
 				<div class="row">
-					<div class="kojobs posts">
-						<div class="col-12 "><a href="https://react-wqvoam.stackblitz.io/">
-								<img src="projects/kojobs_main.png" alt="kojobs website main page"><img
-									src="projects/kojobs.png" class="events_kojobs" alt="event page kojobs"></div>
-
-						<p>Kojobs</p>
-						</a>
+					<div class="col-lg-6 col-12 mt-3 posts">
+						<a
+							href="https://www.figma.com/proto/r2pmiJyYHXPQYVRjPyc3k5/A25%3A-Final-Project-V3?page-id=0%3A1&node-id=2060-4767&viewport=345%2C398%2C0.17&t=ft5h6mGUMX3SSUCv-1&scaling=scale-down&starting-point-node-id=2060%3A4767&show-proto-sidebar=1">
+							<img src="sapphic_spark/New Landing Page.png" alt="sapphic spark landing page"></a>
 					</div>
-				</div>
-				<div class="col-12 col-lg-8 posts video">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/tiMhlFEdo6I?si=ZpYPmFgm3d5vaD7N"
-						title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-					encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-					<a href="https://devpost.com/software/nutritionify">
-						<p>Nutritionify</p>
-					</a>
-				</div>
+					<div class="col-lg-6 col-12 mt-3 posts">
+						<a href="https://www.figma.com/proto/r2pmiJyYHXPQYVRjPyc3k5/A25%3A-Final-Project-V3?page-id=0%3A1&node-id=2060-4767&viewport=345%2C398%2C0.17&t=ft5h6mGUMX3SSUCv-1&scaling=scale-down&starting-point-node-id=2060%3A4767&show-proto-sidebar=1"
+							target="_blank">
 
-				<div class="col-12 col-md-6 col-lg-4 mt-3 posts">
-					<a href="https://react-g77akj.stackblitz.io/"><img src="thumbnails/sushi_thumbnail.png"
-							class="thumbnails">
-						<p>Sushi Shopping Cart</p>
+							<img src="sapphic_spark/Allison's new profile.png" alt="allison's profile">
+					</div>
+					<div class="sapphic-spark posts mt-3">
+					<p>Sapphic Spark (Figma Prototype) - Dating app for sapphic individuals</p>
 					</a>
+					<p>Authors: Cherise Clough, Amy Kim, Emily Henriquez</p>
 				</div>
-				<div class="col-12 col-md-6 col-lg-4 mt-3 posts">
-
-					<a href="https://react-h4wjwm.stackblitz.io/" target="_blank"><img
-							src="https://uscwebdev.github.io/itp301-submissions-amykimusc/lab_04/img/fry2.jpeg"
-							class="thumbnails">
-						<p>React Image Gallery</p>
-					</a>
-				</div>
-				<div class="col-12 col-md-6 col-lg-4 mt-3 posts">
-
-					<a href="lab09/index.html"><img src="thumbnails/resident_evil.png" class="thumbnails">
-						<p>Mock advertisement: <br>"Resident Evil 4 Remake"</p>
-					</a>
-				</div>
-				<div class="col-12 col-md-6 col-lg-4 mt-3 posts">
-					<a href="magazine.html"><img src="thumbnails/page7.jpg" alt="about page" class="thumbnails">
-						<p>Magazine: Money flushed on makeup 2014-18</p>
-					</a>
 				</div>
 			</div>
-
-
 
 			<div class="row">
-				<div class="categories">Essays & Papers</div>
-				<div class="col papers">
+				<div class="kojobs posts">
+					<div class="col-12 "><a href="https://react-wqvoam.stackblitz.io/">
+							<img src="projects/kojobs_main.png" alt="kojobs website main page"><img
+								src="projects/kojobs.png" class="events_kojobs" alt="event page kojobs"></div>
 
-					<p><a href="img/Aging Asian countries with urbanization, feminism, mobility, and housing.pdf">
-							1. Aging Asian countries with urbanization, feminism, mobility, and housing crises
-							(2023)</a></p>
-
-					<p><a href="img/Geol 241 reflection essay.pdf">2. Politics and economics of fossil fuels and
-							renewables (2023)</a></p>
-
-					<p><a href="img/SUD_factors.pdf">3. Economics & statistics on substance use disorder (2022)</a></p>
-
-					<p><a
-							href="img/In the shadows of legality- analyzing the interplay of precarious legality, policy frameworks, and migration management.pdf">
-							4. In
-							the shadows of legality: <br>analyzing the interplay of precarious legality, policy
-							frameworks,
-							and migration management (2023)</a></p>
-
-					<p><a href="img/7_Economic and Fiscal Impacts of Immigration.pdf">5. Economic and Fiscal
-							Impacts
-							of
-							Immigration (2019)</a></p>
+					<p>Kojobs</p>
+					</a>
 				</div>
-				<button type="button" class="btn btn-outline-primary"><a href="lab06/index.html">What is contemporary
-						art?</a></button>
-				<!--introduction-->
-				<div class="col-12 col-lg-6 mt-3 introduction">
-					<div class="categories">About</div>
-					<p>Hello! I'm Amy from South Korea and have been in the U.S. for 9 years now.
-						I have practiced fine art and graphic design in Idyllwild Arts Academy and School of the Art
-						Institute of Chicago (SAIC)
-						and then have transferred the University of California (USC) to study economics, computer
-						programming, and web development.<br><br>
 
-						The <strong><em><a href="https://devpost.com/software/nutritionify"
-									class="nutritionify">Nutritionify</a></strong></em> project was an
-						application for hackathon: Athenahacks 2024. Nutritionify utilizes the Spotify API to draw
-						real user data into the server, reports back the top tracks and info in the format of a
-						nutrition guide.
-						I developed the frontend components using Vite, JS, React, and Spotify API. We faced some
-						challenges
-						as it was our first time using Vite, Ngrok, APIs, but we learned a lot in the process.<br><br>
+			
+			<div class="col-12 col-lg-8 posts video">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/tiMhlFEdo6I?si=ZpYPmFgm3d5vaD7N"
+					title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+					encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				<a href="https://devpost.com/software/nutritionify">
+					<p>Nutritionify</p>
+				</a>
+			</div>
 
-						The Sushi Shopping Cart is still under development. I initially created the responsive page with
-						Javascript and HTML,
-						then later converted it to React and used StackBlitz to deploy it. Similarly, the React Image
-						Gallery
-						was created using React and bootstrap. The Resident Evil 4 mock advertisement and Magazine
-						showcase design and color choices following design principles and rationales.
+			<div class="col-12 col-md-6 col-lg-4 mt-3 posts">
+				<a href="https://react-g77akj.stackblitz.io/"><img src="thumbnails/sushi_thumbnail.png"
+						class="thumbnails">
+					<p>Sushi Shopping Cart</p>
+				</a>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 mt-3 posts">
 
-						<br><br>
-						My programming skills are still developing, and I'm eager to incorporate what I've learned and
-						practiced
-						in contemporary arts to improve design and function in solving problems.
+				<a href="https://react-h4wjwm.stackblitz.io/" target="_blank"><img
+						src="https://uscwebdev.github.io/itp301-submissions-amykimusc/lab_04/img/fry2.jpeg"
+						class="thumbnails">
+					<p>React Image Gallery</p>
+				</a>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 mt-3 posts">
 
-					</p>
-				</div>
-				<!--profile picture-->
-				<div class="col-12 col-lg-6 mt-3">
-					<img class="float-end" src="img/profile2.jpg" alt text="Amy's profile image">
-				</div>
+				<a href="lab09/index.html"><img src="thumbnails/resident_evil.png" class="thumbnails">
+					<p>Mock advertisement: <br>"Resident Evil 4 Remake"</p>
+				</a>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 mt-3 posts">
+				<a href="magazine.html"><img src="thumbnails/page7.jpg" alt="about page" class="thumbnails">
+					<p>Magazine: Money flushed on makeup 2014-18</p>
+				</a>
 			</div>
 		</div>
+
+
+
+		<div class="row">
+			<div class="categories">Essays & Papers</div>
+			<div class="col papers">
+
+				<p><a href="img/Aging Asian countries with urbanization, feminism, mobility, and housing.pdf">
+						1. Aging Asian countries with urbanization, feminism, mobility, and housing crises
+						(2023)</a></p>
+
+				<p><a href="img/Geol 241 reflection essay.pdf">2. Politics and economics of fossil fuels and
+						renewables (2023)</a></p>
+
+				<p><a href="img/SUD_factors.pdf">3. Economics & statistics on substance use disorder (2022)</a></p>
+
+				<p><a
+						href="img/In the shadows of legality- analyzing the interplay of precarious legality, policy frameworks, and migration management.pdf">
+						4. In
+						the shadows of legality: <br>analyzing the interplay of precarious legality, policy
+						frameworks,
+						and migration management (2023)</a></p>
+
+				<p><a href="img/7_Economic and Fiscal Impacts of Immigration.pdf">5. Economic and Fiscal
+						Impacts
+						of
+						Immigration (2019)</a></p>
+			</div>
+			<button type="button" class="btn btn-outline-primary"><a href="lab06/index.html">What is contemporary
+					art?</a></button>
+			<!--introduction-->
+			<div class="col-12 col-lg-6 mt-3 introduction">
+				<div class="categories">About</div>
+				<p>Hello! I'm Amy from South Korea and have been in the U.S. for 9 years now.
+					I have practiced fine art and graphic design in Idyllwild Arts Academy and School of the Art
+					Institute of Chicago (SAIC)
+					and then have transferred the University of California (USC) to study economics, computer
+					programming, and web development.<br><br>
+
+					The <strong><em><a href="https://devpost.com/software/nutritionify"
+								class="nutritionify">Nutritionify</a></strong></em> project was an
+					application for hackathon: Athenahacks 2024. Nutritionify utilizes the Spotify API to draw
+					real user data into the server, reports back the top tracks and info in the format of a
+					nutrition guide.
+					I developed the frontend components using Vite, JS, React, and Spotify API. We faced some
+					challenges
+					as it was our first time using Vite, Ngrok, APIs, but we learned a lot in the process.<br><br>
+
+					The Sushi Shopping Cart is still under development. I initially created the responsive page with
+					Javascript and HTML,
+					then later converted it to React and used StackBlitz to deploy it. Similarly, the React Image
+					Gallery
+					was created using React and bootstrap. The Resident Evil 4 mock advertisement and Magazine
+					showcase design and color choices following design principles and rationales.
+
+					<br><br>
+					My programming skills are still developing, and I'm eager to incorporate what I've learned and
+					practiced
+					in contemporary arts to improve design and function in solving problems.
+
+				</p>
+			</div>
+			<!--profile picture-->
+			<div class="col-12 col-lg-6 mt-3">
+				<img class="float-end" src="img/profile2.jpg" alt text="Amy's profile image">
+			</div>
+		</div>
+	</div>
 	</div>
 	<!--video
 		<div class="row">

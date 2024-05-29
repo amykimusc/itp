@@ -1,0 +1,153 @@
+@font-face {
+font-family: 'Cafe24ClassicType-Regular';
+src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Cafe24ClassicType-Regular.woff2') format('woff2');
+font-weight: normal;
+font-style: normal;
+}
+.links a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.links a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.posts a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.posts a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.papers a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.papers a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.btn a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.btn a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.row {
+
+    margin-bottom: 2%;
+}
+
+.float-end {
+    width: 100%;
+    align-content: right;
+    padding: 8% 2%;
+    /*0% 0% 0% 3.5%; border: 1px solid green;*/
+}
+
+.links {
+    text-align: center;
+}
+
+.categories {
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+    margin: 1em 0em 1em 0em;
+    font-size: 1.5em;
+}
+
+
+.posts p {
+    margin: 1.8em 0em 1em 0em;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+.btn {
+    padding: 1em;
+    margin: 1em 0em 0em 0em;
+}
+
+.thumbnails {
+    width: 100%;
+    border: 1px solid lightgray;
+}
+
+#header {
+    font-family: "Inter", Arial, sans-serif;
+    text-align: center;
+
+}
+
+h1 {
+    padding: 0.5em 0em 0.5em 0em;
+    font-size: 3.5em;
+    font-weight: 280;
+    font-family: 'Cafe24ClassicType-Regular';
+}
+
+.papers {
+    text-decoration: underline;
+    padding-top: 3%;
+    text-align: left;
+}
+
+#main {
+    margin: 0 auto;
+
+    text-align: center;
+    width: 90%;
+}
+
+.container {
+
+    color: black;
+    margin: 0 auto;
+    padding: 4%;
+}
+
+.introduction {
+    text-align: left;
+    margin: 0 auto;
+    padding: 2%;
+
+}
+
+body {
+    font-family: "Inter", Arial, sans-serif;
+    margin: 0;
+}
+
+.nutritionify {
+    text-decoration: underline;
+
+}
+
+.kojobs img {
+    width: auto;
+    height: 500px;
+}
+.sapphic-spark img {
+    width:100%;
+}
