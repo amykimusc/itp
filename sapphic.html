@@ -6,87 +6,176 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lily+Script+One&display=swap"
+        rel="stylesheet">
     <style>
         img {
             width: 100%;
             /* padding-bottom: 1em; */
         }
+
         .categories {
-            text-transform: uppercase;
+            text-transform: none;
             font-style: normal;
-            text-align: center;
-            margin: 1em 0em 1em 0em;
-            font-size: 1.5em;
-            font-weight: bold;
-            color:#b21e46;
-            margin: 50px 0px 60px 0px;
+            text-align: left;
+            font-size: 3em;
+            color: #EF4D65;
+            font-family: "Cabin", system-ui;
+            /* font-weight: bold; */
+            margin: 1em 0em;
+
         }
-    </style>
+
+        .explanation {
+            text-transform: none;
+            font-style: normal;
+            text-align: left;
+            margin-bottom: 2em;
+            font-size: 1.5em;
+            /* font-weight: bold; */
+            color: #b21e46;
+            font-family: "Cabin", system-ui;
+            font-weight: lighter;
+        }
+
+        .logo {
+            padding-top: 1.5em;
+            width: 50%;
+            /* margin: 0 auto; */
+        }
+
+        .lily-script-one-regular {
+            font-family: "Lily Script One", system-ui;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .cabin {
+            font-family: "Cabin", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
+        }
+
+        .sam-pic {
+            display: inline-block;
+            /* Ensure the parent element wraps tightly around the img */
+            border-radius: 50px;
+            clip-path: inset(4px 3px 0px 0px);
+            overflow: hidden;
+            /* Ensures the image stays within the bounds of the parent */
+        }
+        .screen-label {
+            font-family: "Cabin", sans-serif;
+            text-align: center;
+            margin: 0.5em;
+            font-size: 1.2em;
+        }
+</style>
 </head>
 <div class="container">
     <div class="row">
         <img src="sapphic_spark/Frame 32.png" alt="sapphic spark logo" class="logo">
-        <div class="col">
-            <div class="categories">
-            
-                <p>Statement</p>
-            </div>
-            <img src="sapphic_spark/Problem.png" alt="problem statement">
-            <div class="categories">
-                <p>Design System</p>
-            </div>
-            <img src="sapphic_spark/70S.png" alt="design system">
-            <div class="categories">
-                <p>New user: Taylor</p>
-            </div>
-            <img src="sapphic_spark/Taylor Persona.png" alt="Taylor persona">
-        </div>
     </div>
-    <div class="row">
+    <div class="col">
         <div class="categories">
-            <p>Signup Flow | User signs up without profile pictures</p>
+            <p>A dating app for sapphic individuals</p>
+            <!-- <p>Statement</p> -->
         </div>
+        <img src="sapphic_spark/Problem.png" alt="problem statement">
+        <div class="categories">
+            <p>Design System</p>
+        </div>
+        <img src="sapphic_spark/70S.png" alt="design system">
+        <div class="categories">
+            <p>Beginner user: Taylor</p>
+        </div>
+        <img src="sapphic_spark/Taylor Persona.png" alt="Taylor persona">
+    </div>
+
+    <div class="row">
+
+        <p class="categories">Signup Flow: user signs up without profile pictures
+
+        </p>
+        <p class="explanation">
+            Sapphic Spark is a dating app that focuses more on personality
+            than appearances, therefore, we provide the users the option to not
+            use their pictures but instead upload pictures they think that represent
+            them.
+        </p>
         <img src="sapphic_spark/Taylor Flow.png" alt="Taylor flow">
-        <div class="col-xl-4 col-lg-6 col-12">
+        <div class="col-lg-6 col-12">
 
             <img src="sapphic_spark/New Landing Page.png" alt="flow1">
+            <p class="screen-label">Landing page</p>
         </div>
-        <div class="col-xl-4 col-lg-6 col-12">
+        <div class="col-lg-6 col-12">
             <img src="sapphic_spark/Signup choice.png" alt="signup choices">
+            <p class="screen-label">Sign up using socials</p>
+
         </div>
-        <div class="col-xl-4 col-lg-6 col-12">
+        <div class="col-lg-6 col-12">
             <img src="sapphic_spark/questions2.png" alt="major choice">
+            <p class="screen-label">Sign up questionaires</p>
+
         </div>
 
-        <div class="col-xl-4 col-lg-6 col-12">
+        <div class="col-lg-6 col-12">
             <img src="sapphic_spark/Camera.png" alt="camera verification">
+            <p class="screen-label">Camera verification</p>
+
         </div>
-        <div class="col-xl-4 col-lg-6 col-12">
+        <div class="col-lg-6 col-12">
             <img src="sapphic_spark/Image generator.png" alt="image generator">
+            <p class="screen-label">AI image generator</p>
+
         </div>
-        <div class="col-xl-4 col-lg-6 col-12">
+        <div class="col-lg-6 col-12">
             <img src="sapphic_spark/setup_complete.png" alt="setup complete">
+            <p class="screen-label">Setup complete</p>
+
         </div>
-        <div class="col-xl-4 col-lg-6 col-12">
+        <div class="col-lg-6 col-12">
             <img src="sapphic_spark/Rita's new rejection page.png" alt="rejecting Rita">
+            <p class="screen-label">Rejecting a profile</p>
+
         </div>
-        <div class="col-xl-4 col-lg-6 col-12">
+        <div class="col-lg-6 col-12">
             <img src="sapphic_spark/Allison's new profile.png" alt="Allison's profile">
+            <p class="screen-label">Allison's profile</p>
+
         </div>
-        <!-- <div class="col-xl-4 col-lg-6 col-12">
+        <!-- <div class="col-lg-6 col-12">
             <img src="sapphic_spark/allsion_2.png" alt="allison profile scrolled">
         </div> -->
-        <div class="col-xl-4 col-lg-6 col-12">
+        <div class="col-lg-6 col-12">
             <img src="sapphic_spark/Its a Spark page.png" alt="matched! spark!">
+            <p class="screen-label">Taylor matches with Allison</p>
+
         </div>
-        <div class="col-xl-4 col-lg-6 col-12">
+        <div class="col-lg-6 col-12">
             <img src="sapphic_spark/Taylor Conversation 11.png" alt="taylor allison conversation">
+            <p class="screen-label">Taylor requests to see Allison's hidden profile</p>
+
         </div>
-        <div class="col-xl-4 col-lg-6 col-12">
+        <div class="col-lg-6 col-12">
             <img src="sapphic_spark/Allison's pic reveal.png" alt="view allison's hidden profile">
+            <p class="screen-label">Looking at Allison's hidden profile with her images</p>
+
         </div>
-        <div class="col-xl-4 col-lg-6 col-12">
+        <div class="col-lg-6 col-12">
             <img src="sapphic_spark/Taylor Conversation 14.png" alt="taylor compliments allison">
+            <p class="screen-label">Allison and Taylor chatting</p>
+
         </div>
     </div>
 
@@ -99,31 +188,43 @@
         <img src="sapphic_spark/Sam Persona.png" alt="Taylor persona">
 
         <div class="categories">
-            <p>Match Flow | Super user</p>
+            <p>Match Flow: Super user</p>
         </div>
         <img src="sapphic_spark/Sam flow.png" alt="Sam flow">
 
     </div>
 
     <div class="row">
-        <div class="col-xl-4 col-lg-6 col-12">
-            <img src="sapphic_spark/events.png" alt="community events">
+        <div class="col-lg-6 col-12 mt-3">
+            <img src="sapphic_spark/events.png" alt="community events" class="sam-pic">
+            <p class="screen-label">Community events page</p>
+
         </div>
-        <div class="col-xl-4 col-lg-6 col-12">
-            <img src="sapphic_spark/Sam Checkout Pro.png" alt="sam checking out ticket">
+        <div class="col-lg-6 col-12 mt-3">
+            <img src="sapphic_spark/Sam Checkout Pro.png" alt="sam checking out ticket" class="sam-pic">
+            <p class="screen-label">Getting tickets for bonfire</p>
+
         </div>
-        <div class="col-xl-4 col-lg-6 col-12">
-            <img src="sapphic_spark/Sam Ticket Pro.png" alt="sam's ticket">
+        <div class="col-lg-6 col-12 mt-3">
+            <img src="sapphic_spark/Sam Ticket Pro.png" alt="sam's ticket" class="sam-pic">
+            <p class="screen-label">Ticket QR and registered guest list</p>
+
         </div>
-        <div class="col-xl-4 col-lg-6 col-12">
-            <img src="sapphic_spark/Zara.png" alt="send to Zara">
+        <div class="col-lg-6 col-12 mt-3">
+            <img src="sapphic_spark/Zara.png" alt="send to Zara" class="sam-pic">
+            <p class="screen-label">Inviting Zara</p>
+
         </div>
 
-        <div class="col-xl-4 col-lg-6 col-12">
-            <img src="sapphic_spark/Sam Conversation 1.png" alt="sam sends zara">
+        <div class="col-lg-6 col-12 mt-3">
+            <img src="sapphic_spark/Sam Conversation 1.png" alt="sam sends zara" class="sam-pic">
+            <p class="screen-label">Conversation between Sam and Zara</p>
+
         </div>
-        <div class="col-xl-4 col-lg-6 col-12">
-            <img src="sapphic_spark/Sam Conversation 4.png" alt="zara accepts">
+        <div class="col-lg-6 col-12 mt-3">
+            <img src="sapphic_spark/Sam Conversation 4.png" alt="zara accepts" class="sam-pic">
+            <p class="screen-label">Zara accepts invitation</p>
+
         </div>
     </div>
 
